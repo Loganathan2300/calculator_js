@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./b/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./calculater2.css">
+    <script src="./calculator1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="p">
+        <div >
+            <input type="text" id="display" class="p1" placeholder="">
+        </div><br>
+        <div id="">
+            <button class="p2" onclick="display_number('1')" >1</input>
+            <button class="p2" onclick="display_number('2')">2</button>
+            <button class="p2" onclick="display_number('3')">3</button>
+            <button class="p2" onclick="display_number('+')">+</button>
+        </div>
+        <div id="">
+            <button class="p2" onclick="display_number('4')">4</button>
+            <button class="p2" onclick="display_number('5')">5</button>
+            <button class="p2" onclick="display_number('6')">6</button>
+            <button class="p2" onclick="display_number('-')">-</button>
+        </div>
+        <div id="">
+            <button class="p2" onclick="display_number('7')">7</button>
+            <button class="p2" onclick="display_number('8')">8</button>            
+            <button class="p2" onclick="display_number('9')">9</button>
+            <button class="p2" onclick="display_number('*')">×</button>
+            <!-- <i class="fa-light fa-xmark"></i> -->
+        </div>
+        <div id="">
+            <button class="p2" onclick="display_number('/')">÷</button>
+            <button class="p2" onclick="display_number('0')">0</button>
+            <button class="p2" onclick="display_number('.')">.</button>
+            <button class="p2" onclick="calculateResult()">=</button>
+        </div>
+        <div class="p3">
+            <button class="p4" onclick="clearAll()">CLEAR ALL</button>
+            <button class="p5" onclick="del()">DEL</button>
+        </div>
+    </div>
+    <!-- <script src="./b/js/bootstrap.min.js"></script> -->
+</body>
+</html>
